@@ -1,0 +1,20 @@
+.tag-item {
+  margin-right: 10px;
+}
+
+.tag-button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: 1px solid #f3aa4e;
+  border-radius: 15px;
+  background-color: transparent;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 8px;
+  font-size: 12px;
+}
+
+.selected-button {
+  background-color: #f3aa4e;
+}

@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+}
+
+.left-container {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
+  background-color: #131213;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-heading {
+  font-family: 'Roboto';
+  color: #f3aa4e;
+  font-size: 25px;
+  text-align: center;
+}
+.right-container {
+  background-color: #000000;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  padding: 8px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 25px;
+}
+.tags {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+.label {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.add-button {
+  width: 120px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #f3aa4e;
+  border-width: 0px;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  outline: none;
+  align-self: center;
+}
+
+.tags_list-container {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+}
+
+.tasks-list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-item {
+  padding: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #1a171d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.task-line {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0px;
+}
+.tag-item-button-type {
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: 0px solid none;
+  border-radius: 15px;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 8px;
+  font-size: 12px;
+  background-color: #f3aa4e;
+  border-width: 0px;
+}
+
+.no-task-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-task-line {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+}
